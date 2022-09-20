@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Jost:wght@500&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0%;
+    align-items: center;
+}
+
+#navbar {
+    height: 35px;
+    background-image: linear-gradient(to left top, #001a07, #0e1500, #140f00, #140900, #0f0401, #0d0304, #0a0305, #070306, #0a060d, #090913, #060d17, #00111a);
+    padding: 13px, 14px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+#navbar h1 {
+    font-family: 'Jost', sans-serif;
+
+    color: rgb(0, 255, 132);
+    display: inline-block;
+    float: left;
+    font-size: 1.2rem;
+    margin: 10px 65px;
+}
+
+#navbar ul {
+    font-family: 'Open Sans', sans-serif;
+
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+#navbar li {
+    list-style: none;
+    text-decoration: none;
+}
+
+#navbar li a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+
+    padding: 13px 20px;
+
+}
+
+#navbar li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#introSec {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    opacity: 0.75;
+    height: 650px;
+
+
+}
+
+#introSec div.small {
+    font-size: 40px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#missionSec {
+    background-image: linear-gradient(to left bottom, #ffffff, #fbfbff, #f5f7ff, #edf3ff, #e5f0ff, #e2eeff, #dfebff, #dde9ff, #e2e6ff, #eae2ff, #f4deff, #ffdaf9);
+    height: 650px;
+
+    margin: auto;
+}
+
+#missionSec h2 {
+    font-size: 36px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+
+    padding-top: 25px;
+}
+
+.card {
+    background-image: linear-gradient(to left bottom, #ffffff, #fbfbff, #f5f7ff, #edf3ff, #e5f0ff, #e2eeff, #dfebff, #dde9ff, #e2e6ff, #eae2ff, #f4deff, #ffdaf9);
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 225px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: 'Jost', sans-serif;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-content p {
+    margin-right: 25px;
+}
+
+
+.card-img {
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+
+}
+
+.card-img img {
+    height: inherit;
+    margin: 5px;
+    /* border: 5px solid yellow; */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-img img:hover{
+    scale: 1.1;
+}
+
+#sponsorsSec {
+    font-family: 'Ubuntu', sans-serif;
+    height: 325px;
+    background-image: linear-gradient(to left bottom, #ffffff, #fbfbff, #f5f7ff, #edf3ff, #e5f0ff, #e2eeff, #dfebff, #dde9ff, #e2e6ff, #eae2ff, #f4deff, #ffdaf9);
+    background-image: radial-gradient(circle, #e9ff00, #d4ff55, #c5ff80, #beffa3, #bfffc0, #d0fbc0, #def7c3, #e8f4c9, #f8eac4, #ffe2c6, #ffdbce, #ffd6d8);
+}
+
+#sponsorsSec h2 {
+    font-size: 36px;
+    padding-top: 25px;
+}
+
+
+
+#sponsorsSec img {
+    margin: 40px 25px;
+    width: 120px;
+}
+#sponsorsSec img:hover {
+    scale: 1.1;
+}
+
+
+
+#footer {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+    background-color: black;
+    padding: 15px;
+
+    height: 20px;
+}
+.title{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: 'Jost', sans-serif;
+}

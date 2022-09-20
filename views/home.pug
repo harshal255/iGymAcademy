@@ -1,0 +1,81 @@
+extends base.pug
+
+
+block scripts
+  script(src="../static/index.js")
+
+block style
+   style 
+    include ../static/style.css  
+
+
+block content 
+      section#introSec
+            div Welcome to iGymAcademy
+            div.small  Eat Sleep Workout Repeat
+
+
+      section#missionSec
+        h2 Our Mission
+        div.card
+            h3 Workout Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/1.jpg")
+                div.card-content
+                    p This is the best workout academy of the universe
+
+        div.card
+            h3 Exercise the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.jpg")
+                div.card-content
+                    p This is the best Workout academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.jpg")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Exercise Program
+            div.card-box
+                div.card-img
+                    img(src="/static/4.jpg")
+
+                div.card-content
+                    p Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+        div.card
+            h3 Nutrition Plans
+            div.card-box
+                div.card-img
+                    img(src="/static/5.jpg")
+
+                div.card-content
+                    p Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+        div.card
+            h3 Diet Program
+            div.card-box
+                div.card-img
+                    img(src="/static/6.jpg")
+
+                div.card-content
+                    p Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+
+      section#sponsorsSec 
+        h2 Our Sponsors
+        img(src= "/static/googlefit.png", alt= "Sponsor Image", class= "spImage")
+        img(src= "/static/samsung.png", alt= "Sponsor Image", class= "spImage")
+        img(src= "/static/lifesum.png", alt= "Sponsor Image", class= "spImage")
+        img(src= "/static/nike.png", alt= "Sponsor Image", class= "spImage")
+          
+
+      footer#footer
+         | Created iGymAcademy.com By Harshal Kahar for learning purpose (Practice)
+
+      script 
+        include ../static/index.js 

@@ -1,0 +1,18 @@
+extends base.pug
+
+
+block scripts
+  script(src="../static/index.js")
+
+block style
+   style 
+    include ../static/about.css  
+    include ../static/style.css  
+
+
+block content 
+   h1.title About Us
+   img(src= "/static/googlefit.png", alt= "Sponsor Image", class= "spImage")
+   img(src= "/static/samsung.png", alt= "Sponsor Image", class= "spImage")
+   img(src= "/static/lifesum.png", alt= "Sponsor Image", class= "spImage")
+   img(src= "/static/nike.png", alt= "Sponsor Image", class= "spImage")

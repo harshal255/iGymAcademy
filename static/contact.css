@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Jost:wght@500&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, #ffffff, #fbfbff, #f5f7ff, #edf3ff, #e5f0ff, #e2eeff, #dfebff, #dde9ff, #e2e6ff, #eae2ff, #f4deff, #ffdaf9);
+}
+#title {
+    font-size: 36px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 600;
+
+    padding-top: 25px;
+}
+
+form {
+   
+    
+}
+
+input {
+   
+    display: block;
+    margin: 5px;
+    height: 35px;
+    width: 350px;
+    margin-left: 37.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+
+    border-radius: 10px;
+    margin: 1.5% auto;
+
+}
+input:hover {
+    border: 3px solid greenyellow;
+}
+.btn{
+    margin-top: 2% ;
+    display: block;
+    padding: 10px;
+    background: #302d2d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    width: 300px;
+    margin: auto;
+}

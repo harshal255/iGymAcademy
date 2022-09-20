@@ -1,0 +1,90 @@
+
+         doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title iGymAcademy
+        style 
+           include ../static/style.css
+    body
+      nav#navbar.nav 
+        h1  iGymAcademy
+        ul 
+           li #[a(href='/') Home ]
+           li #[a(href='/') About ]
+           li #[a(href='/') Services ]
+           li #[a(href='/') Contact Us ]
+          
+      
+
+      section(data-aos="fade-up",id="introSec")
+            div Welcome to iGymAcademy
+            div.small  Eat Sleep Workout Repeat
+
+
+      section#missionSec
+        h2 Our Mission
+        div(data-aos="fade-up",class="card")
+            h3 Workout Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/1.jpg")
+                div.card-content
+                    p This is the best workout academy of the universe
+
+        div.card
+            h3 Exercise the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.jpg")
+                div.card-content
+                    p This is the best Workout academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.jpg")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Exercise Program
+            div.card-box
+                div.card-img
+                    img(src="/static/4.jpg")
+
+                div.card-content
+                    p Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+        div.card
+            h3 Nutrition Plans
+            div.card-box
+                div.card-img
+                    img(src="/static/5.jpg")
+
+                div.card-content
+                    p Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+        div.card
+            h3 Diet Program
+            div.card-box
+                div.card-img
+                    img(src="/static/6.jpg")
+
+                div.card-content
+                    p Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+
+      section#sponsorsSec 
+        h2 Our Sponsors
+        img(src= "/static/googlefit.png", alt= "Sponsor Image", class= "spImage")
+        img(src= "/static/samsung.png", alt= "Sponsor Image", class= "spImage")
+        img(src= "/static/lifesum.png", alt= "Sponsor Image", class= "spImage")
+        img(src= "/static/nike.png", alt= "Sponsor Image", class= "spImage")
+          
+
+      footer#footer
+         | Created iGymAcademy.com By Harshal Kahar for learning purpose (Practice) 
+
+      script 
+        include ../static/index.js
